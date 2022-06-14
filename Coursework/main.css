@@ -15,9 +15,10 @@ a:visited {
 nav {
   display: flex;
   justify-content: space-between;
+  height: 10vh;
   align-items: center;
-  padding: 10 30px;
-  border: 2px solid red;
+  padding: 0 40px;
+  background-color: #f1f1f1;
 }
 
 .logo {
@@ -37,12 +38,29 @@ nav {
   border: 2px solid #245f92;
 }
 
+.blue-button {
+  display: inline-block;
+  width: 130px;
+  height: auto;
+  background-color: #245f92;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #f1f1f1;
+}
+
 div {
   text-align: center;
-  margin: 10px;
+  margin: 25px auto;
   border: #333333 2px solid;
+  padding: 20px;
 }
 div h1 {
   color: #00e0f0;
   font-size: 50px;
+}
+
+.graphic {
+  text-align: center;
+  display: flex;
 }

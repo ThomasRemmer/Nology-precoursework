@@ -21,10 +21,10 @@ a:visited {
 nav {
     display: flex;
     justify-content: space-between;
-   
+    height: 10vh;
     align-items: center;
-    padding: 10 30px;
-    border: 2px solid red;
+    padding: 0 40px;
+    background-color: $color-white;
 
 }
 
@@ -45,14 +45,34 @@ nav {
     border: 2px solid $color-primary;
 }
 
-div {
-
+.blue-button {
+    display: inline-block;
+    width: 130px;
+    height:auto;
+    background-color: $color-primary;
     text-align: center;
-    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
+
+}
+
+div {
+    
+    text-align: center;
+    margin: 25px auto;
     border: #333333 2px solid;
+    padding: 20px;
 
     h1{
         color: $color-secondary;
         font-size: 50px;
+        
+
     }
+}
+
+.graphic {
+    text-align: center;
+    display: flex;
 }
