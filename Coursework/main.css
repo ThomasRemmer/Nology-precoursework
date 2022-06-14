@@ -1,11 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #333333;
+  background-color: #f1f1f1;
 }
 
 a:link,
 a:visited {
   text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10 30px;
+  border: 2px solid red;
+}
+
+.logo {
+  font-size: 20px;
+  color: #245f92;
+  vertical-align: 0 auto;
+}
+
+.white-button {
+  display: block;
+  width: 100px;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #245f92;
+  border: 2px solid #245f92;
+}
+
+div {
+  text-align: center;
+  margin: 10px;
+  border: #333333 2px solid;
+}
+div h1 {
+  color: #00e0f0;
+  font-size: 50px;
 }

@@ -1,16 +1,58 @@
-$color-primary: #285278;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+$color-primary: #245f92;
 $color-secondary: #00e0f0;
 $color-black: #333333;
-$color-white: #f1ffef;
+$color-white: #f1f1f1;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: $color-black;
+    background-color: $color-white;
 }
 
 a:link,
 a:visited {
     text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    padding: 10 30px;
+    border: 2px solid red;
+
+}
+
+.logo {
+    font-size: 20px;
+    color: $color-primary;
+    vertical-align: 0 auto;
+}
+
+.white-button {
+    display: block;
+    width: 100px;
+    background-color: $color-white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+}
+
+div {
+
+    text-align: center;
+    margin: 10px;
+    border: #333333 2px solid;
+
+    h1{
+        color: $color-secondary;
+        font-size: 50px;
+    }
 }
