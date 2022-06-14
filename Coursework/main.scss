@@ -1,0 +1,16 @@
+$color-primary: #285278;
+$color-secondary: #00e0f0;
+$color-black: #333333;
+$color-white: #f1ffef;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $color-black;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
