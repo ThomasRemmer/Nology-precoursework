@@ -45,6 +45,7 @@ nav {
     border-radius: 10px;
     color: $color-primary;
     border: 2px solid $color-primary;
+    font-weight: bold;
 }
 
 .blue-button {
@@ -56,6 +57,7 @@ nav {
     padding: 10px 20px;
     border-radius: 10px;
     color: $color-white;
+    font-weight: bold;
 
 }
 
@@ -66,27 +68,38 @@ div {
     border: #333333 2px solid;
     padding: 20px 50px;
 
+#phone { 
+        width: 70%;
+        margin: 40px;
+    }
+
     h1{
         color: $color-secondary;
-        font-size: 8vw;
-        
+        font-size: 35px;
+        margin: 20px 0;
 
     }
 
     h2 {
-        font-size: 6vw;
+        font-size: 30px;
         color: $color-primary;
+        margin: 30px 0;
     }
 
     h3 {
-        font-size: 5vw;
+        font-size: 25px;
         color: $color-secondary;
+        margin: 30px 0;
+    }
+
+    p {
+        margin: 30px 0;
+        font-size: 18px;
+        
     }
 }
 
-#imgbox {
-    height: auto;
-}
+
 
 .graphic {
     text-align: center;
