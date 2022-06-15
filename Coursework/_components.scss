@@ -1,0 +1,81 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    padding: 0 40px;
+    background-color: $color-white;
+
+}
+
+.logo {
+    font-size: 45px;
+    color: $color-primary;
+    vertical-align: 0 auto;
+}
+
+.white-button {
+    display: block;
+    width: 125px;
+    height: 60px;
+    background-color: $color-white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+    font-weight: bold;
+}
+
+.blue-button {
+    display: inline-block;
+    width: 230px;
+    height: 60px;
+    height:auto;
+    background-color: $color-primary;
+    text-align: center;
+    padding:20px;
+    border-radius: 10px;
+    color: $color-white;
+    font-weight: bold;
+
+}
+
+div {
+    
+    width: 100%;
+    text-align: center;
+#phone { 
+        width: 70%;
+        margin: 40px;
+    }
+
+   
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .italics {
+        font-style: italic;
+    }
+}
+
+section{
+    display: flex;
+
+   
+
+    img{
+        max-height: 200px;
+
+    }
+}
+
+.graphic {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}

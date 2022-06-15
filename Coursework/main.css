@@ -23,7 +23,7 @@ nav {
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 45px;
   color: #245f92;
   vertical-align: 0 auto;
 }
@@ -88,11 +88,6 @@ div h4 {
   margin: 30px 0;
   padding: 20px;
 }
-div p {
-  margin: 20 0;
-  font-size: 20px;
-  padding: 0px 20px;
-}
 div .bold {
   font-weight: bold;
 }
@@ -102,19 +97,20 @@ div .italics {
 
 section {
   display: flex;
+}
+section p {
+  width: 350px;
+  height: 200px;
+  font-size: 20px;
   text-align: center;
 }
 section img {
-  width: 200px;
-  height: 200px;
-  align-items: center;
+  max-height: 200px;
 }
 
 .graphic {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 20px 20px;
   margin: 0;
 }
 
