@@ -3,8 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #333333;
+  color: #245f92;
   background-color: #f1f1f1;
+  font-family: "Roboto", sans-serif;
 }
 
 a:link,
@@ -53,14 +54,25 @@ div {
   text-align: center;
   margin: 25px auto;
   border: #333333 2px solid;
-  padding: 20px;
+  padding: 20px 50px;
 }
 div h1 {
   color: #00e0f0;
-  font-size: 50px;
+  font-size: 8vw;
 }
+div h2 {
+  font-size: 6vw;
+  color: #245f92;
+}
+div h3 {
+  font-size: 5vw;
+  color: #00e0f0;
+}
+
+
 
 .graphic {
   text-align: center;
   display: flex;
+  padding: 0;
 }
