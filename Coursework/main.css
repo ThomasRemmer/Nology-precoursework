@@ -117,3 +117,13 @@ section img {
   padding: 20px 20px;
   margin: 0;
 }
+
+footer a {
+  display: flex;
+  background-color: #ffeaaf;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.25em;
+}
